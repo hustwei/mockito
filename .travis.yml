@@ -33,6 +33,10 @@ matrix:
     env: SKIP_RELEASE=true
   - jdk: oraclejdk8
     env: SKIP_RELEASE=true
+    addons:
+      apt:
+        packages:
+          - oracle-java8-installer
 
 env:
   global:
